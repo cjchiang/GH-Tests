@@ -15,5 +15,6 @@ jobs:
         with:
           tag-prefix: "v"
           default: minor
+          patch-wording: "patch,fixes,patching,fixing"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}ßß
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
